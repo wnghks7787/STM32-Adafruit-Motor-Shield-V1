@@ -1,0 +1,46 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# Compiled objects and dependency files
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.lst
+
+# Firmware/linker outputs
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Generated make files from managed builds
+makefile
+objects.mk
+objects.list
+sources.mk
+subdir.mk
+
+# IDE/editor local state
+.settings/
+**/.settings/
+.metadata/
+.recommenders/
+.vscode/
+.idea/
+*.launch
+*.launches
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
